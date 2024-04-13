@@ -4,7 +4,7 @@ permalink: repair
 layout: shop
 carousels:
   - images: 
-    - image: /images/goods/repair/1.jpg
+    - image: /images/goods/repair/1.png
 author_profile: true
 price: "Від 300 грн"
 buy: "ремонту "
