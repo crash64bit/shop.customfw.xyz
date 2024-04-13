@@ -45,7 +45,7 @@ feature_row:
     price: "9 500 грн"
   - title: "Nintendo Switch Lite, вживана"
     excerpt: "Вживана Nintendo Switch Lite з карткою на 64Гб"
-    image_path: /images/goods/lite/title.jpg
+    image_path: /images/goods/lite_used/title.jpg
     url: "lite_used"
     price: "8 500 грн"
   - title: "Nintendo Switch, 2 ревізія, вживана"
