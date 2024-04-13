@@ -1,0 +1,94 @@
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+{% if include.id %}
+  {% assign feature_row2 = page[include.id] %}
+{% else %}
+  {% assign feature_row2 = page.feature_row %}
+{% endif %}
+
+<style>
+  .archive__item-teaser {
+    position: relative;
+  }
+  .archive__item-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-bottom: -20px;
+    box-sizing: border-box;
+  }
+
+
+  .feature__item > a {
+    color: #494e52 !important;
+  }
+
+  </style>
+
+<div class="feature__wrapper">
+
+  {% for f in feature_row %}
+
+    {% if f.caption %}
+      <div class="feature__item feature__caption">
+      {{ f.caption }}
+      </div>
+      {% continue %}
+    {% endif %}
+
+    {% if f.url contains "://" %}
+      {% capture f_url %}{{ f.url }}{% endcapture %}
+    {% else %}
+      {% capture f_url %}{{ f.url | absolute_url }}{% endcapture %}
+    {% endif %}
+
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <a href="{{ f_url }}">
+
+        <div class="archive__item">
+          <div class="archive__item-teaser">
+            <div class="archive__image-wrapper">
+              <img src=
+              {% if f.image_path contains "://" %}
+              "{{ f.image_path }}"
+              {% else %}
+              "{{ f.image_path | absolute_url }}"
+              {% endif %}
+              alt="{% if f.alt %}{{ f.alt }}{% endif %}"
+              >
+              <div class="text-overlay">
+               {{ f.price }}
+              </div>
+            </div>
+            
+          </div>  
+
+          <div class="archive__item-body">
+            <h2 class="archive__item-title">{{ f.title }}</h2>
+
+            {% if f.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+
+      </a>
+    </div>
+  {% endfor %}
+
+</div>

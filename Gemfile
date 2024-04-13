@@ -1,10 +1,6 @@
-source 'https://rubygems.org'
+source "http://rubygems.org"
 
-gem 'jekyll', '4.2.1'
-
-group :jekyll_plugins do
-  gem 'jekyll-seo-tag', '2.6.1'
-  gem 'jekyll-sitemap', '1.3.1'
-  gem 'tzinfo'
-  gem 'tzinfo-data'
-end
+gem 'jekyll-redirect-from'
+gem 'jekyll'
+gem 'kramdown-parser-gfm'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?

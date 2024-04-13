@@ -1,0 +1,91 @@
+<div class="sidebar__right" bis_skin_checked="1">
+	<div class="author__avatar-button-container" bis_skin_checked="1">
+	  {% if author.avatar %}
+	  <div class="author__avatar" bis_skin_checked="1">
+		 {% if author.avatar contains "://" %}
+		 <img src="{{ author.avatar_right }}" alt="{{ author.name }}" itemprop="image">
+		 {% else %}
+		 <center><img src="{{ author.avatar_right | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image"></center>
+		 {% endif %}
+	  </div>
+	  {% endif %}
+	  <div class="button-wrapper" bis_skin_checked="1">
+		 <a href="http://t.me/xhrxhrxhr?text=Вітаю, я з приводу {{ page.buy }}" target="_blank"><button class="btn btn--def btn--inverse btn--large btn--buy">Замовити</button></a>
+	  </div>
+	</div>
+ 
+	<style>
+	  .arrow-list {
+		 list-style-type: none;
+		 padding-left: 20px;
+		 font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+		 font-size: 0.85em;
+		 line-height: 1.5;
+	  }
+ 
+	  .arrow-list {
+		 color: #494e52 !important;
+	  }
+  
+	  .arrow-list li:before {
+		 content: "▸";
+		 color: black;
+		 margin-right: 10px;
+	  }
+ 
+	  a.notation {
+		 padding: 0 !important;
+		 text-decoration: underline !important;
+	  }
+ 
+	  a.notation:hover {
+		 text-decoration: none !important;
+	  }
+ 
+	  .arrow-list > li{
+		 padding: 0px 10px 10px 0px;
+		 text-decoration: none;
+	  }
+ 
+	  .author__avatar-button-container {
+		 display: flex;
+		 align-items: center;
+		 justify-content: space-between;
+		 margin-bottom: 20px;
+	  }
+ 
+	  .author__avatar {
+		 flex: 0 0 auto;
+		 margin-right: 10px;
+	  }
+ 
+	  .button-wrapper {
+		 flex: 0 0 auto;
+	  }
+	  
+ 
+	  @media (max-width: 1024px) {
+		 .author__avatar-button-container {
+			align-items: flex-start;
+			justify-content: flex-start;
+		 }
+
+		 .button-wrapper {
+			margin-left: 60px;
+			margin-right: 10px;
+	 	 }
+ 
+	  }
+	</style>
+ 
+	<ol class="arrow-list">
+	  <li>Досвід роботи більше 10 років</li>
+	  <li>Автор прошивки <a class="notation" href="https://kefir.customfw.xyz/" target="_blank">kefir</a></li>
+	  <li>Більше 1000 прошитих консолей</li>
+	  <li>Багато <a class="notation" href="https://t.me/kefir_ukr/22415" target="_blank">відгуків</a></li>
+	  <li>Гарантія півроку</li>
+	  <li>Працюю всюди, куди доставляє Нова Пошта (у тому числі з межами України)</li>
+	  <li>Відправлення назад наступного дня після отримання</li>
+	  <li>Військовим знижки (подробиці в <a class="notation" href="http://t.me/xhrxhrxhr" target="_blank">телеграмі</a>)</li>
+	</ol>
+ </div>
