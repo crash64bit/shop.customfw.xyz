@@ -43,6 +43,11 @@ feature_row:
     image_path: /images/goods/v2_nude/title.jpg
     url: "v2_nude"
     price: "9 500 грн"
+  - title: "Nintendo Switch, 1 ревізія, без комплекта"
+    excerpt: "Вживана Nintendo Switch першої ревізії без комплекта з карткою на 64 Гб"
+    image_path: /images/goods/v1_nude/title.jpg
+    url: "v1_nude"
+    price: "7 500 грн"
   - title: "Nintendo Switch Lite, вживана"
     excerpt: "Вживана Nintendo Switch Lite з карткою на 64Гб"
     image_path: /images/goods/lite_used/title.jpg
@@ -53,6 +58,11 @@ feature_row:
     image_path: /images/goods/v2_used/title.jpg
     url: "v2_used"
     price: "11 000 грн"
+  - title: "Nintendo Switch, 1 ревізія, вживана"
+    excerpt: "Вживана Nintendo Switch першої ревізії з карткою на 64 Гб"
+    image_path: /images/goods/v1_used/title.jpg
+    url: "v1_used"
+    price: "9 000 грн"
 ---
 
 {% include feature_row %}
