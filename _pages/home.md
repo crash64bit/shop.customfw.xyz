@@ -26,12 +26,12 @@ feature_row:
     excerpt: "Нова Nintendo Switch OLED з карткою на 128 Гб"
     image_path: /images/goods/oled_new/title.jpg
     url: "oled_new"
-    price: "17 000 грн"
+    price: "18 000 грн"
   - title: "Nintendo Switch, 2 ревізія, нова"
     excerpt: "Нова Nintendo Switch другої ревізії з карткою на 128 Гб"
     image_path: /images/goods/v2_new/title.jpg
     url: "v2_new"
-    price: "14 500 грн"
+    price: "13 000 грн"
   - caption: "Вживані Switch"
   - title: "Nintendo Switch OLED, вживана"
     excerpt: "Вживана Nintendo OLED з карткою на 64 Гб"

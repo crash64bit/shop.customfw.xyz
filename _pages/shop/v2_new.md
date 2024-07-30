@@ -6,7 +6,7 @@ carousels:
   - images: 
     - image: /images/goods/v2_new/1.jpg
 author_profile: true
-price: "14500 грн"
+price: "13000 грн"
 buy: "новой консолі другої ревізії "
 ---
 
