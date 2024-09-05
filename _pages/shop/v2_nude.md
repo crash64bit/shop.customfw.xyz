@@ -10,7 +10,7 @@ carousels:
     - image: /images/goods/v2_nude/4.jpg
     - image: /images/goods/v2_nude/5.jpg
 author_profile: true
-price: "9500 грн"
+price: "9 500 грн"
 buy: "другої ревізії без комплекта "
 ---
 

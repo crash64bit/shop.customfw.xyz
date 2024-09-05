@@ -9,7 +9,7 @@ carousels:
     - image: /images/goods/v1_used/3.jpg
     - image: /images/goods/v1_used/4.jpg
 author_profile: true
-price: "9000 грн"
+price: "9 000 грн"
 buy: "вживаної першої ревізії в повному комплекті "
 ---
 

@@ -11,7 +11,7 @@ carousels:
     - image: /images/goods/oled_used/5.jpg
     - image: /images/goods/oled_used/6.jpg
 author_profile: true
-price: "14500 грн"
+price: "14 500 грн"
 buy: "вживаного OLED "
 ---
 

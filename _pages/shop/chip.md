@@ -9,7 +9,7 @@ carousels:
     - image: /images/goods/chip/3.jpg
     - image: /images/goods/chip/4.jpg
 author_profile: true
-price: "2000-4000 грн"
+price: "2 000 - 4 000 грн"
 buy: "чипування "
 ---
 
