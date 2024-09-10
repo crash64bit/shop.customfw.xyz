@@ -9,7 +9,6 @@ carousels:
     - image: /images/goods/oled_new/3.jpg
     - image: /images/goods/oled_new/4.jpg
     - image: /images/goods/oled_new/5.jpg
-    - image: /images/goods/oled_new/6.jpg
 author_profile: true
 price: "18 000 грн"
 buy: "нового OLED "

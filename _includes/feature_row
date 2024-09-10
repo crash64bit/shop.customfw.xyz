@@ -44,7 +44,7 @@
 
     {% if f.caption %}
       <div class="feature__item feature__caption">
-      {{ f.caption }}
+      <span id="{{ f.caption | slugify }}">{{ f.caption }}</span>
       </div>
       {% continue %}
     {% endif %}

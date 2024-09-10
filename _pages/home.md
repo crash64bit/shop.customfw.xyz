@@ -22,8 +22,8 @@ feature_row:
     url: "repair"
     price: "Від 300 грн"
   - caption: "Нові Switch"
-  - title: "Nintendo Switch OLED, нова, лімітована"
-    excerpt: "Нова Nintendo Switch OLED з карткою на 128 Гб (лімітовані версії)"
+  - title: "Nintendo Switch OLED, нова, лімітована Mario Edition"
+    excerpt: "Нова Nintendo Switch OLED з карткою на 128 Гб (лімітована Mario Edition)"
     image_path: /images/goods/oled_new_lim/title.jpg
     url: "oled_new_lim"
     price: "19 000 грн"
@@ -72,6 +72,19 @@ feature_row:
     excerpt: "Вживана Nintendo Switch першої ревізії без комплекта з карткою на 64 Гб"
     image_path: /images/goods/v1_nude/title.jpg
     url: "v1_nude"
+    price: "7 500 грн"
+  - caption: ""
+  - caption: ""
+  - caption: "Вживані Wii U"
+  - title: "Nintendo Wii U, вживана, чорна 32Gb"
+    excerpt: "Вживана Nintendo Wii U з 32Gb внутрішньої пам'яті"
+    image_path: /images/goods/wiiu_black/title.jpg
+    url: "wiiu_black"
+    price: "7 500 грн"
+  - title: "Nintendo Wii U, вживана, біла, 100Гб"
+    excerpt: "Вживана Nintendo Wii U з розширеною ємністю до 100Гб"
+    image_path: /images/goods/wiiu_white/title.jpg
+    url: "wiiu_white"
     price: "7 500 грн"
 ---
 
