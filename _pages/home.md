@@ -37,6 +37,8 @@ feature_row:
     image_path: /images/goods/v2_new/title.jpg
     url: "v2_new"
     price: "12 000 грн"
+  - caption: ""
+  - caption: ""
   - caption: "Вживані Switch"
   - title: "Nintendo Switch OLED, вживана"
     excerpt: "Вживана Nintendo OLED з карткою на 64 Гб"
