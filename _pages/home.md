@@ -23,31 +23,31 @@ feature_row:
     price: "Від 300 грн"
   - caption: "Нові Switch"
   - title: "Nintendo Switch OLED, нова, лімітована Mario Edition"
-    excerpt: "Нова Nintendo Switch OLED з карткою на 128 Гб (лімітована Mario Edition)"
+    excerpt: "Нова Nintendo Switch OLED з карткою на 128 Гб (лімітована Splatoon Edition)"
     image_path: /images/goods/oled_new_lim/title.jpg
     url: "oled_new_lim"
-    price: "19 000 грн"
+    price: "18 500 грн"
   - title: "Nintendo Switch OLED, нова"
     excerpt: "Нова Nintendo Switch OLED з карткою на 128 Гб"
     image_path: /images/goods/oled_new/title.jpg
     url: "oled_new"
-    price: "18 000 грн"
-  # - title: "Nintendo Switch, 2 ревізія, нова"
-  #   excerpt: "Нова Nintendo Switch другої ревізії з карткою на 128 Гб"
-  #   image_path: /images/goods/v2_new/title.jpg
-  #   url: "v2_new"
-  #   price: "13 000 грн"
+    price: "17 500 грн"
+  - title: "Nintendo Switch, 2 ревізія, нова"
+    excerpt: "Нова Nintendo Switch другої ревізії з карткою на 128 Гб"
+    image_path: /images/goods/v2_new/title.jpg
+    url: "v2_new"
+    price: "12 000 грн"
   - caption: "Вживані Switch"
   - title: "Nintendo Switch OLED, вживана"
     excerpt: "Вживана Nintendo OLED з карткою на 64 Гб"
     image_path: /images/goods/oled_used/title.jpg
     url: "oled_used"
-    price: "14 500 грн"
+    price: "13 500 грн"
   - title: "Nintendo Switch, 2 ревізія, вживана"
     excerpt: "Вживана Nintendo Switch другої ревізії з карткою на 64 Гб"
     image_path: /images/goods/v2_used/title.jpg
     url: "v2_used"
-    price: "11 000 грн"
+    price: "10 000 грн"
   # - title: "Nintendo Switch OLED, вживана, лімітована Zelda Edition"
   #   excerpt: "Вживана Nintendo OLED з карткою на 64 Гб"
   #   image_path: /images/goods/oled_used_lim/title.jpg
@@ -62,17 +62,17 @@ feature_row:
     excerpt: "Вживана Nintendo Switch першої ревізії з карткою на 64 Гб"
     image_path: /images/goods/v1_used/title.jpg
     url: "v1_used"
-    price: "9 000 грн"
+    price: "8 000 грн"
   - title: "Nintendo Switch, 2 ревізія, без комплекта"
     excerpt: "Вживана Nintendo Switch другої ревізії без комплекта з карткою на 64 Гб"
     image_path: /images/goods/v2_nude/title.jpg
     url: "v2_nude"
-    price: "9 500 грн"
+    price: "8 500 грн"
   - title: "Nintendo Switch, 1 ревізія, без комплекта"
     excerpt: "Вживана Nintendo Switch першої ревізії без комплекта з карткою на 64 Гб"
     image_path: /images/goods/v1_nude/title.jpg
     url: "v1_nude"
-    price: "7 500 грн"
+    price: "7 000 грн"
   - caption: ""
   - caption: ""
   - caption: "Вживані Wii U"
@@ -80,11 +80,6 @@ feature_row:
     excerpt: "Вживана Nintendo Wii U з 32Gb внутрішньої пам'яті"
     image_path: /images/goods/wiiu_black/title.jpg
     url: "wiiu_black"
-    price: "7 500 грн"
-  - title: "Nintendo Wii U, вживана, біла, 100Гб"
-    excerpt: "Вживана Nintendo Wii U з розширеною ємністю до 100Гб"
-    image_path: /images/goods/wiiu_white/title.jpg
-    url: "wiiu_white"
     price: "7 500 грн"
 ---
 

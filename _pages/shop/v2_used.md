@@ -9,7 +9,7 @@ carousels:
     - image: /images/goods/v2_used/3.jpg
     - image: /images/goods/v2_used/4.jpg
 author_profile: true
-price: "11 000 грн"
+price: "10 000 грн"
 buy: "вживаної другої ревізії "
 ---
 

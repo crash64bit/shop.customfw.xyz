@@ -7,7 +7,7 @@ carousels:
     - image: /images/goods/v1_nude/1.jpg
     - image: /images/goods/v1_nude/2.jpg
 author_profile: true
-price: "7 500 грн"
+price: "7 000 грн"
 buy: "першої ревізії без комплекта "
 ---
 
